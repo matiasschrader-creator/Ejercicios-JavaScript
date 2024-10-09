@@ -7,18 +7,16 @@ if (edad <= 10) {
     resultado += "Recibes un jugo.\n";
 }
 if (edad > 18) {
-    resultado += "Recibes una cerveza.\n"; // Cervezas para mayores de 18 años
+    resultado += "Recibes una cerveza.\n"; 
 }
 if (genero === "mujer") {
-    resultado += "Además, recibes una porción de pizza Hawaiana.\n"; // Pizza Hawaiana para mujeres
+    resultado += "Además, recibes una porción de pizza Hawaiana.\n"; 
 } else if (genero === "hombre") {
-    resultado += "Además, recibes una porción de pizza de tres carnes.\n"; // Pizza de tres carnes para hombres
+    resultado += "Además, recibes una porción de pizza de tres carnes.\n"; 
 }
 
-// Mensaje si no recibe premio
 if (resultado === "") {
     resultado = "No recibes ningún premio.";
 }
 
-// Mostrar el resultado al usuario
 alert(resultado);
